@@ -71,6 +71,7 @@ if __name__ == '__main__':
         plt.plot(hist_v_shirt, color='b', label="v")
         plt.legend()
         plt.show()
+        
         # Trouser
         print("Trouser main color: ")
         h_trouser = trouser[:, :, 0]
